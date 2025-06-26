@@ -33,11 +33,11 @@ Listagem apenas dos itens com estoque disponível.
 ---
 ### 🛠️ Estrutura do Código
 src/
-* Equipamentos.java          *-> Modelo de dados dos itens
-* Movimentacoes.java         *-> Controle de movimentações (data/hora, tipo, qtd)
-* Estoque.java               *-> Lógica de estoque (add, remove, listar, busca)
-* EstoqueService.java        *-> Serviço intermediário (validação + interface CLI)
-* App.java                   *-> Interface via terminal com Scanner
+* Equipamentos.java          -> Modelo de dados dos itens
+* Movimentacoes.java         -> Controle de movimentações (data/hora, tipo, qtd)
+* Estoque.java               -> Lógica de estoque (add, remove, listar, busca)
+* EstoqueService.java        -> Serviço intermediário (validação + interface CLI)
+* App.java                   -> Interface via terminal com Scanner
 ---
 ### 🚀 Sobre este projeto
 
