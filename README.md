@@ -1,5 +1,4 @@
-# Vivere Entretenimento – Sistema de Controle de Estoque 
----
+# Vivere
 ## 🛠️ Sobre a Vivere Entretenimento
 
 A **Vivere Entretenimento** é uma empresa especializada em produção e realização de eventos, com sede na Barra da Tijuca (RJ) e atuação em segmentos como montagem de palcos, sonorização, iluminação, locação de coberturas e estruturas temporárias ([cnpj.biz][1]). Fundada em 2013, com cerca de 50–200 colaboradores, a Vivere opera em diferentes regiões e fornece soluções completas de infraestrutura e produção .
