@@ -35,12 +35,15 @@ Estoque_automacao/
  - movimento.py # Modelo de movimentações
 
 - servicos
-- │ -estoque.py # Menu principal e serviços do estoque
-
-  -pycache # Arquivos compilados do Python
+- estoque.py # Menu principal e serviços do estoque
+- pycache # Arquivos compilados do Python
 
 ---
-
+## 👨‍💻 Autores 
+- Arthur Pinto
+- Hudson Assumpção
+- Luiza Conrado
+---
 ## ⚙️ Tecnologias
 
 - **Python 3.12+**
@@ -66,7 +69,13 @@ python importar_tendas_mysql.py
 cd servicos
 python estoque.py
 python app.py
+------
+### 📄 Licença
 
+---
 
+👉 Esse README já é **uma página completa** e está pronto para colocar direto no seu repositório (`Estoque_automacao/README.md`).  
+
+Quer que eu já prepare junto um **requirements.txt** bonitinho para esse projeto, para quem for instalar só rodar `pip install -r requirements.txt`?
 
 
