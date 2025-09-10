@@ -20,24 +20,24 @@ Desenvolvido em **Python** com integração ao **MySQL Workbench**, o projeto or
 
 ## 📂 Estrutura do Projeto
 Estoque_automacao/
-│ app.py # API Flask (inventário, estruturas, movimentos)
-│ estruturas.py # Funções de leitura e manipulação de estruturas
-│ importar_csv_mysql.py # Importação de inventário CSV → MySQL
-│ importar_tendas_mysql.py # Importação de tendas/estruturas → MySQL
-│ inventario.py # Conferência do inventário
-│ inventario_vivere.csv # Inventário base em CSV
-│ Pasta1.xlsx # Arquivo auxiliar (Excel)
-│ registrar_movimento_estrutura.py # Registro de movimentações de estruturas
-│ Tendas_Vivere.xlsx # Base de dados principal das tendas
-│
-├───modelos
-│ equipamentos.py # Modelo de equipamentos
-│ movimento.py # Modelo de movimentações
-│
-├───servicos
-│ estoque.py # Menu principal e serviços do estoque
-│
-└───pycache # Arquivos compilados do Python
+- app.py # API Flask (inventário, estruturas, movimentos)
+- estruturas.py # Funções de leitura e manipulação de estruturas
+- importar_csv_mysql.py # Importação de inventário CSV → MySQL
+- importar_tendas_mysql.py # Importação de tendas/estruturas → MySQL
+- inventario.py # Conferência do inventário
+- inventario_vivere.csv # Inventário base em CSV
+- Pasta1.xlsx # Arquivo auxiliar (Excel)
+- registrar_movimento_estrutura.py # Registro de movimentações de estruturas
+- Tendas_Vivere.xlsx # Base de dados principal das tendas
+
+- modelos
+  - equipamentos.py # Modelo de equipamentos
+ - movimento.py # Modelo de movimentações
+
+- servicos
+- │ -estoque.py # Menu principal e serviços do estoque
+
+  -pycache # Arquivos compilados do Python
 
 ---
 
