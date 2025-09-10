@@ -19,7 +19,7 @@ Desenvolvido em **Python** com integração ao **MySQL Workbench**, o projeto or
 ---
 
 ## 📂 Estrutura do Projeto
-
+Estoque_automacao/
 │ app.py # API Flask (inventário, estruturas, movimentos)
 │ estruturas.py # Funções de leitura e manipulação de estruturas
 │ importar_csv_mysql.py # Importação de inventário CSV → MySQL
