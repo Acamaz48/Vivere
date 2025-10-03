@@ -1,81 +1,70 @@
-# 📦 Vivere - Estoque Automação
+# Getting Started with Create React App
 
-Sistema de automação para **controle de estoque** da **Vivere Produções**.  
-Desenvolvido em **Python** com integração ao **MySQL Workbench**, o projeto organiza o inventário, registra movimentações e permite a montagem de estruturas como **tendas, palcos e galpões**.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-## ✨ Funcionalidades
+In the project directory, you can run:
 
-- ✅ Registrar **movimentações de entrada e saída** de materiais.  
-- ✅ Realizar **conferência do inventário** (comparando banco de dados e planilhas).  
-- ✅ Montagem de **estruturas (tenda, palco e galpão)**:
-  - Seleção de modelo
-  - Escolha e edição dos materiais utilizados  
-- ✅ Relatórios tabulados no terminal.  
-- ✅ Persistência dos dados em **MySQL**.  
-- ✅ Exposição de dados via **API Flask** para integração futura.  
+### `npm start`
 
----
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## 📂 Estrutura do Projeto
-Estoque_automacao/
-- app.py # API Flask (inventário, estruturas, movimentos)
-- estruturas.py # Funções de leitura e manipulação de estruturas
-- importar_csv_mysql.py # Importação de inventário CSV → MySQL
-- importar_tendas_mysql.py # Importação de tendas/estruturas → MySQL
-- inventario.py # Conferência do inventário
-- inventario_vivere.csv # Inventário base em CSV
-- Pasta1.xlsx # Arquivo auxiliar (Excel)
-- registrar_movimento_estrutura.py # Registro de movimentações de estruturas
-- Tendas_Vivere.xlsx # Base de dados principal das tendas
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- modelos
-  - equipamentos.py # Modelo de equipamentos
- - movimento.py # Modelo de movimentações
+### `npm test`
 
-- servicos
-- estoque.py # Menu principal e serviços do estoque
-- pycache # Arquivos compilados do Python
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
----
-## 👨‍💻 Autores 
-- Arthur Pinto
-- Hudson Assumpção
-- Luiza Conrado
----
-## ⚙️ Tecnologias
+### `npm run build`
 
-- **Python 3.12+**
-- **MySQL Workbench**
-- **Flask** (API REST)
-- **Pandas** (manipulação de dados CSV/Excel)
-- **OpenPyXL** (planilhas Excel)
-- **Tabulate** (relatórios no terminal)
-- **mysql-connector-python** (conexão com MySQL)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
----
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## 🚀 Instalação e Uso
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### 1. Clonar o repositório
-```bash
-git clone https://github.com/Acamaz48/Vivere.git
-cd Vivere/Producoes_Vivere/Estoque_automacao
-pip install flask pandas openpyxl tabulate mysql-connector-python
-CREATE DATABASE vivere_estoque;
-python importar_csv_mysql.py
-python importar_tendas_mysql.py
-cd servicos
-python estoque.py
-python app.py
-------
-### 📄 Licença
+### `npm run eject`
 
----
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-👉 Esse README já é **uma página completa** e está pronto para colocar direto no seu repositório (`Estoque_automacao/README.md`).  
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Quer que eu já prepare junto um **requirements.txt** bonitinho para esse projeto, para quem for instalar só rodar `pip install -r requirements.txt`?
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
